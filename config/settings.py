@@ -36,6 +36,9 @@ ALLOWED_HOSTS = os.getenv(
   "localhost,127.0.0.1"
 ).split(",")
 
+print("### ALLOWED_HOSTS FROM DEPLOYED CODE ###")
+print("ALLOWED_HOSTS")
+
 
 # Application definition
 
