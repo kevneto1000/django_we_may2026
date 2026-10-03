@@ -34,7 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'https://djangowemay2026-production.up.railway.app',
+    'djangowemay2026-production.up.railway.app',
 ]
 
 print("### ALLOWED_HOSTS FROM DEPLOYED CODE ###")
