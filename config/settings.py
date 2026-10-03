@@ -31,10 +31,11 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = os.getenv(
-  "ALLOWED_HOSTS", 
-  "localhost,127.0.0.1"
-).split(",")
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'https://djangowemay2026-production.up.railway.app',
+]
 
 print("### ALLOWED_HOSTS FROM DEPLOYED CODE ###")
 print("ALLOWED_HOSTS")
